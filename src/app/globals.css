@@ -32,10 +32,19 @@
     color: var(--color-foreground);
     font-family: var(--font-sans);
     overflow-x: hidden;
+    /* Restrict text selection */
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
   }
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-serif);
+  }
+
+  /* Restrict image dragging */
+  img {
+    -webkit-user-drag: none;
   }
 }
 

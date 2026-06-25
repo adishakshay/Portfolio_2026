@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import ScreenshotGuard from "@/components/layout/ScreenshotGuard";
 import "./globals.css";
 
 const inter = Inter({
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.variable} ${playfairDisplay.variable} antialiased bg-background text-foreground selection:bg-accent selection:text-background flex flex-col min-h-screen`}>
+        <ScreenshotGuard />
         <Navbar />
         <div className="flex-grow">
           {children}
