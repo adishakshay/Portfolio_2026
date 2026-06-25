@@ -99,9 +99,9 @@ export const portfolioData = {
     },
     {
       title: "NCSM Ticket Booking Chatbot",
-      description: "Chatbot for the National Council of Science Museums developed during SIH.",
+      description: "An AI-powered chatbot designed to streamline the ticket booking process for the National Council of Science Museums (NCSM), developed during Smart India Hackathon (SIH).",
       tech: ["Dialogflow", "Firebase"],
-      link: "https://www.linkedin.com/posts/adishanand2004_sih2023-ai-innovation-activity-7117183011404169216-UXvG",
+      link: "https://www.linkedin.com/posts/adish-a-717735258_sih-smartindiahackathon-chatbot-activity-7247994511526666242-FSf4",
       image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?auto=format&fit=crop&q=80&w=800",
     },
   ],

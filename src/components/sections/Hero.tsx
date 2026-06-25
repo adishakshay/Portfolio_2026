@@ -21,7 +21,7 @@ export default function Hero() {
         </div>
         <div className="flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
-          <span>B.TECH AI & DATA SCIENCE · '26</span>
+          <span>B.TECH AI & DATA SCIENCE · &apos;26</span>
         </div>
       </div>
 
