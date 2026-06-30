@@ -68,7 +68,7 @@ export default function Hero() {
                 View My Work
               </Link>
               <a
-                href="/resume.pdf"
+                href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/resume.pdf`}
                 download
                 className="px-8 py-4 border border-foreground/30 hover:border-accent text-foreground hover:text-accent font-sans font-bold uppercase text-[10px] tracking-[2px] transition-all duration-300 rounded-full text-center"
               >

@@ -101,7 +101,7 @@ export default function WorkPage() {
                 
                 {project.dataset && (
                   <a 
-                    href={project.dataset}
+                    href={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}${project.dataset}`}
                     download
                     className="flex items-center justify-center gap-2 text-[11px] uppercase tracking-[0.2em] font-sans font-bold text-accent border border-accent/20 hover:border-accent hover:bg-accent/5 py-2.5 rounded-xl transition-all duration-300 w-full"
                   >
